@@ -23,11 +23,11 @@ class Cells:
 
     def partition(self):
         if len(self.particle_list) <= 8:
-            print(f"smaller 8: {len(self.particle_list)}")
+            #print(f"smaller 8: {len(self.particle_list)}")
             return
 
         else:
-            print(f"bigger 8 = {len(self.particle_list)}")
+            #print(f"bigger 8 = {len(self.particle_list)}")
             x_length = self.x_max - self.x_min
             y_length = self.y_max - self.y_min
 
